@@ -1,0 +1,401 @@
+/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 10px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+/* additional sections */
+#homeform {
+  background: url(../images/haitian-flagMap.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: #fff;
+}
+#home {
+  background: url(../images/haiti_blur.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: #fff;
+}
+
+@media(max-width:767px){
+#home {
+  background: url(../images/haiti_blur.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: #fff;
+}
+	}
+
+#navbar-collapse-main ul li a{
+    color: #fff;
+}
+
+#services {
+  background-color: #306d9f;
+  color: #fff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+.merci{
+    background: url(../images/people.jpg) no-repeat center center fixed;
+    color: #fff;
+    font-variant: small-caps;
+}
+.merci p{
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+.sign{
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+.topnav {
+    background: url(../images/banner.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.topnav li a{
+    color: #fff;
+}
+
+/* MODAL */
+.headmodal{
+    background-color: rgba(0, 35, 102, 0.63);
+    color: #fff;
+    text-align: center;
+}
+.modal-body img{
+    margin-bottom: 20px;
+    border: 1px  solid #2e2d2d;
+}
+.modal-body p{
+    text-align: justify;
+    background: rgba(255, 255, 255, 0.65);
+    margin: 0 10px;
+    padding: 10px 30px;
+}
+.modal-content{
+    background: url(../images/massacre-haitiens-1937.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.titre {
+    text-align: center;
+}
+
+#contentContainer{
+    margin-top: 20px;
+}
+
+/* FORM */
+
+
+#about 
+.pad-section {
+  max-height: cover;
+}
+
+.pour{
+    padding-top: 20px;
+}
+
+.h1 page-header{
+    color:#fff;
+}#signer {
+	width: 100%;
+	align-content:center;
+	margin:0 auto;
+}
+centerblock {
+	align-content:center;
+	text-align:center;
+	margin:0 auto;
+}
+.leadform {
+	margin-top: 158px;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: 800;
+}
+#homeform .logoform img {
+	margin-top: 10%;
+	margin-left: 42%;
+	margin-right: 25%;
+}
+#formul {
+	display:block;
+	text-align:center;
+	align-content:center;
+	width:300px;
+	margin-left:30%;
+}
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#submit {
+    width:127px;
+    height:38px;
+    text:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+label {
+    letter-spacing:2px;
+	margin-top:20px;
+}
+@media (min-width : 410px ) and (max-width : 553px ){
+	#form{
+		width:553px;
+		}
+	#homeform {
+  background: url(../images/haitian-flagMap.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: #fff;
+}
+#homeform .logoform img {
+	margin-top: 10%;
+	margin-left: 32%;
+	margin-right: 25%;
+}
+#formul {
+	display:block;
+	text-align:center;
+	align-content:center;
+	width:200px;
+	margin-left:15%;
+}
+input, textarea {
+    width:339px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#submit {
+    width:100px;
+    height:38px;
+    text:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+label {
+    letter-spacing:2px;
+	margin-top:20px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 410px){
+	#form{
+		width:409px;
+		}
+	#homeform {
+  background: url(../images/haitian-flagMap.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 409px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: #fff;
+}
+#homeform .logoform img {
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 15%;
+}
+#formul {
+	display:block;
+	text-align:center;
+	align-content:center;
+	width:100px;
+	margin-left:19%;
+}
+input, textarea {
+    width:239px;
+    height:37px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#submit {
+    width:100px;
+    height:38px;
+    text:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+label {
+    letter-spacing:2px;
+	margin-top:20px;
+}
+}
+
+@media (min-width: 200px) and (max-width: 320px){
+	#form{
+		width:319px;
+		}
+	#homeform {
+  background: url(../images/haitian-flagMap.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 319px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: #fff;
+}
+#homeform .logoform img {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+#formul {
+	display:block;
+	text-align:center;
+	align-content:center;
+	width:100px;
+	margin-left:5%;
+}
+input, textarea {
+    width:239px;
+    height:37px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+#submit {
+    width:100px;
+    height:38px;
+    text:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+label {
+    letter-spacing:2px;
+	margin-top:20px;
+}
+}
